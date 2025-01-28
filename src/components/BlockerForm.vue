@@ -43,9 +43,9 @@ const processBlocks = async () => {
       try {
         await agent.getProfile({ actor: account })
         await agent.app.bsky.graph.block.create(
-        { repo: agent.session.did },
+        { repo: agent.session?.did },
         {
-          subject: await getDidFromHandle(account),
+          subject: await getDidFromHandle(account) || '',
           createdAt: new Date().toISOString()
         })
 
