@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@atproto/api": "^0.12.2",
+    "@tailwindcss/vite": "^4.0.6",
+    "tailwindcss": "^4.0.6",
     "vue": "^3.4.38"
   },
   "devDependencies": {
