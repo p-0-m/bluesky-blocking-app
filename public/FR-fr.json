@@ -1,0 +1,14 @@
+{
+    "title": "Bloqueur Bluesky",
+    "enterHandle": "Entrez votre handle Bluesky:",
+    "handlePlaceholder": "toi.bsky.social",
+    "enterPassword": "Entrez votre mot de passe:",
+    "enterCSV": "Télécharger le fichier CSV:",
+    "csvInfo": "Le fichier doit comprendre une liste de handles Bluesky à bloquer, un par ligne et être au format CSV.",
+    "block": "Bloquer",
+    "processing": "Traitement...",
+    "success": " comptes bloqués!",
+    "error": "Erreur:",
+    "mainFile": "Liste principale",
+    "customFile": "Liste personnalisée"
+}

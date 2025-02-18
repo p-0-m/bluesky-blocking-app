@@ -1,0 +1,14 @@
+{
+    "title": "Bluesky Blocker",
+    "enterHandle": "Enter your Bluesky handle:",
+    "handlePlaceholder": "you.bsky.social",
+    "enterPassword": "Enter your password:",
+    "enterCSV": "Upload CSV file:",
+    "csvInfo": "The file should contain a list of Bluesky handles to block, one per line, and be in CSV format.",
+    "block": "Block",
+    "processing": "Processing...",
+    "success": " accounts blocked!",
+    "error": "Error:",
+    "mainFile": "Main list",
+    "customFile": "Custom list"
+}
