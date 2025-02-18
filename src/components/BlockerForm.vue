@@ -69,6 +69,20 @@
   import { BskyAgent } from '@atproto/api'
   import { defineComponent } from 'vue'
 
+  interface Translations {
+    title: string;
+    enterHandle: string;
+    handlePlaceholder: string;
+    enterPassword: string;
+    mainFile: string;
+    customFile: string;
+    enterCSV: string;
+    csvInfo: string;
+    processing: string;
+    block: string;
+    success: string;
+  }
+
   export default defineComponent({
 
     setup() {
@@ -77,7 +91,7 @@
       const csvFile = ref<File | null>(null)
       const status = ref('')
       const isProcessing = ref(false)
-      const translations = ref({})
+      const translations = ref<Translations>({} as Translations)
       const selectedOption = ref('main')
       const mainCsvContent = ref<string | null>(null)
 
